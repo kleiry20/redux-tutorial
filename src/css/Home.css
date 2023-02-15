@@ -1,5 +1,6 @@
 .img-wrapper img {
   width: 100px;
+  margin-top: -10px;
 }
 
 .cart-wrapper {
@@ -7,6 +8,8 @@
   width: 500px;
   padding: 30px;
   margin: 10px;
+  height: 100px;
+  margin-left: 10%;
 }
 
 .btn-wrapper button {
@@ -15,10 +18,16 @@
   color: aliceblue;
   padding: 8px;
   border-radius: 6px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
 
 .item {
   float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
 }
 
 .add-to-cart {
